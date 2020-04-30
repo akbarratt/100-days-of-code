@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: April, 2020
+### Day 1: April 29, 2020
 
 **Today's Progress**: Forked the #100DaysOfCode repo, made adjustments to the goals, and spent 50 minutes reading and taking notes on [Marijn Haverbeke's Eloquent JavaScript](https://eloquentjavascript.net/)
 
