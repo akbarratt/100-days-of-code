@@ -16,3 +16,12 @@
 
 **Link to work:** [Here's some code I typed up while following along with the book.](
 https://gist.github.com/akbarratt/bfaff884012cac6da70a42445938654e)
+
+
+### Day 3: May 1, 2020
+
+**Today's Progress**: Spent 30 minutes finishing  [Marijn Haverbeke's Eloquent JavaScript](https://eloquentjavascript.net/) chapter 2. Reviewed loops and basic concepts.
+
+**Thoughts:** There are some exercises tomorrow that I'm excited to try. Just reading gets a little tiresome.
+
+**Link to work:** Just reading today.
