@@ -34,3 +34,7 @@ https://gist.github.com/akbarratt/bfaff884012cac6da70a42445938654e)
 **Thoughts:** My solutions were inelegant and cumbersome compared to the "correct" answers, but I was able to reach them on my own without assistance, so I feel I am grasping the concepts. I'm not sure how I was supposed to solve the final problem relying solely on the information given in the chapter. I'm not going to fault myself for failing that one. Though targeted at beginners, some aspects of this book have been difficult to understand.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/day4.js
+
+### Day 5: May 3, 2020
+
+**Today's Progress**: Discovered that contributions to forked repositories don't count as commits on GitHub profiles. So (reviewing git in the process), cloned the previous repository to my hard drive, initialized a new repository, and copied my progress, which should now count in my activity log.
