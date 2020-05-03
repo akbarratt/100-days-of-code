@@ -25,3 +25,12 @@ https://gist.github.com/akbarratt/bfaff884012cac6da70a42445938654e)
 **Thoughts:** There are some exercises tomorrow that I'm excited to try. Just reading gets a little tiresome.
 
 **Link to work:** Just reading today.
+
+
+### Day 4: May 2, 2020
+
+**Today's Progress**: Spent ~1 hour completing chapter 2 exercises in [Marijn Haverbeke's "Eloquent JavaScript"](https://eloquentjavascript.net/). Passed 2/3.
+
+**Thoughts:** My solutions were inelegant and cumbersome compared to the "correct" answers, but I was able to reach them on my own without assistance, so I feel I am grasping the concepts. I'm not sure how I was supposed to solve the final problem relying solely on the information given in the chapter. I'm not going to fault myself for failing that one. Though targeted at beginners, some aspects of this book have been difficult to understand.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/day4.js
