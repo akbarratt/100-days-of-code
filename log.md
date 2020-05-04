@@ -38,3 +38,9 @@ https://gist.github.com/akbarratt/bfaff884012cac6da70a42445938654e)
 ### Day 5: May 3, 2020
 
 **Today's Progress**: Discovered that contributions to forked repositories don't count as commits on GitHub profiles. So (reviewing git in the process), cloned the previous repository to my hard drive, initialized a new repository, and copied my progress, which should now count in my activity log.
+
+Later today spent about 30 minutes backing up old websites using git and checking out my unused Wordpress blog. Ultimately a bit of a waste of time as I'll have to start actually using it before knowing what improvements to make, but it helped me focus my goals nevertheless.
+
+**Thoughts:** I need to identify some practical projects to work on while I work on my JS course. I think if I have time I will focus on making a static landing page for my main website. I also bought a course of practical projects I can revisit if I get bored of theory.
+
+**Link to work:** It's all here on GitHub today.
