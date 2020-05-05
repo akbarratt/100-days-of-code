@@ -44,3 +44,14 @@ Later today spent about 30 minutes backing up old websites using git and checkin
 **Thoughts:** I need to identify some practical projects to work on while I work on my JS course. I think if I have time I will focus on making a static landing page for my main website. I also bought a course of practical projects I can revisit if I get bored of theory.
 
 **Link to work:** It's all here on GitHub today.
+
+
+### Day 6: May 4, 2020
+
+**Today's Progress**: Back to more active tutorials, reviewed the material I had previously covered on DOM maniupulation and single element selectors in the [Traversy Media Course on vanilla JS](https://www.udemy.com/share/101WqkBEUeeV5STXo=/) I've been trying to make my way through.
+
+**Thoughts:** I feel more confident this time around. A little rusty in my HTML/CSS but I'm confident it will come back to me. Tomorrow may try some of my own experiments using this template.
+
+I'm also realizing I really need to resume my habit of creating flash cards in [Anki](https://apps.ankiweb.net/) as I learn. It is a slower learning process but retentions is leaps and bounds better. I would find it less frustrating and there would be less need for review every time I sit down.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
