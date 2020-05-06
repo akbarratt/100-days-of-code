@@ -55,3 +55,11 @@ Later today spent about 30 minutes backing up old websites using git and checkin
 I'm also realizing I really need to resume my habit of creating flash cards in [Anki](https://apps.ankiweb.net/) as I learn. It is a slower learning process but retentions is leaps and bounds better. I would find it less frustrating and there would be less need for review every time I sit down.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
+
+### Day 6: May 5, 2020
+
+**Today's Progress**: Multiple element selectors today. I understand the function, it's the syntax that's a little bit difficult to rememeber.
+
+**Thoughts:** Wow, it's been a whole week.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
