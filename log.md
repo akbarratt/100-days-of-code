@@ -56,7 +56,7 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
 
-### Day 6: May 5, 2020
+### Day 7: May 5, 2020
 
 **Today's Progress**: Multiple element selectors today. I understand the function, it's the syntax that's a little bit difficult to rememeber.
 
