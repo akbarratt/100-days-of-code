@@ -63,3 +63,12 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Wow, it's been a whole week.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
+
+
+### Day 8: May 6, 2020
+
+**Today's Progress**: More DOM manipulation, including creation and insertion of HTML elements into the DOM from JS. Pretty cool!
+
+**Thoughts:** I've got about an hour left in this tutorial before the first project. I do want to finish up before I proceed but I'm getting a little antsy because I think I've already figured out how to do it.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
