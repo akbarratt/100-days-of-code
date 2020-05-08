@@ -77,6 +77,6 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Today's Progress**: Not much time today and didn't feel like listening to a tutorial so put on some music and tried my best to replicate the test document with the HTML I remember.
 
-**Thoughts:** I actually did pretty well. Needed a reminder on some tags, but the move to semantic tags in HTML5 makes structuring a document much easier to follow. Unfortunately when double checking the tutorial document, I realized it's reliant on Bootstrap and is an absolute clusterfuck of <div>s. Will probably end up rewriting from the ground up when I do it myself. It's a simple page, I don't anticipate much difficulty other than styling.
+**Thoughts:** I actually did pretty well. Needed a reminder on some tags, but the move to semantic tags in HTML5 makes structuring a document much easier to follow. Unfortunately when double checking the tutorial document, I realized it's reliant on Bootstrap and is an absolute clusterfuck of `<div>`s. Will probably end up rewriting from the ground up when I do it myself. It's a simple page, I don't anticipate much difficulty other than styling.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/test.html
