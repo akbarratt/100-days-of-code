@@ -72,3 +72,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I've got about an hour left in this tutorial before the first project. I do want to finish up before I proceed but I'm getting a little antsy because I think I've already figured out how to do it.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/exercises/DOM-Manipulation
+
+### Day 9: May 7, 2020
+
+**Today's Progress**: Not much time today and didn't feel like listening to a tutorial so put on some music and tried my best to replicate the test document with the HTML I remember.
+
+**Thoughts:** I actually did pretty well. Needed a reminder on some tags, but the move to semantic tags in HTML5 makes structuring a document much easier to follow. Unfortunately when double checking the tutorial document, I realized it's reliant on Bootstrap and is an absolute clusterfuck of <div>s. Will probably end up rewriting from the ground up when I do it myself. It's a simple page, I don't anticipate much difficulty other than styling.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/test.html
