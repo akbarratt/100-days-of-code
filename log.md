@@ -80,3 +80,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I actually did pretty well. Needed a reminder on some tags, but the move to semantic tags in HTML5 makes structuring a document much easier to follow. Unfortunately when double checking the tutorial document, I realized it's reliant on Bootstrap and is an absolute clusterfuck of `<div>`s. Will probably end up rewriting from the ground up when I do it myself. It's a simple page, I don't anticipate much difficulty other than styling.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/test.html
+
+### Days 10-12: May 8, 10, 11, 2020
+
+**Today's Progress**: Still working through tutorial. Learning about DOM manipulation and now Event Listeners.
+
+**Thoughts:** I keep forgetting to log. :neutral_face:
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
