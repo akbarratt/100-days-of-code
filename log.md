@@ -88,3 +88,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I keep forgetting to log. :neutral_face:
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
+
+### Day 13: May 13, 2020
+
+**Today's Progress**: Messing around with mouse events.
+
+**Thoughts:** I can see some practical applications for some of the weird things you can do with JS.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
