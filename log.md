@@ -96,3 +96,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I can see some practical applications for some of the weird things you can do with JS.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
+
+### Day 14: May 14, 2020
+
+**Today's Progress**: More event listeners! Input events!
+
+**Thoughts:** I'm thinking of some practical projects that can be done with what I've learned, although there are a few coming up in the tutorial as well.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
