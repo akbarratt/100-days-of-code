@@ -1,31 +1,35 @@
-const clearBtn = document.querySelector('.clear-tasks');
-const card = document.querySelector('.card');
-const heading = document.querySelector('h5');
+// Event Bubbling
 
-// Click
-// clearBtn.addEventListener('click', runEvent);
-// Doubleclick
-// clearBtn.addEventListener('dblclick', runEvent);
-// Mousedown
-// clearBtn.addEventListener('mousedown', runEvent);
-// Mouseup
-// clearBtn.addEventListener('mouseup', runEvent);
-// Mouseenter
-// card.addEventListener('mouseenter', runEvent);
-// Mouseleave
-// card.addEventListener('mouseleave', runEvent);
-// Mouseover
-// card.addEventListener('mouseover', runEvent);
-// Mouseout
-// card.addEventListener('mouseout', runEvent);
-// Mousemove
-card.addEventListener('mousemove', runEvent);
+// document.querySelector('.card-title').addEventListener('click', function(){
+//   console.log('card title');
+// });
 
-// Event Handler
-function runEvent(e){
-  console.log(`EVENT TYPE: ${e.type}`)
+// document.querySelector('.card-content').addEventListener('click', function(){
+//   console.log('card content');
+// });
 
-  heading.textContent = `Mouse X: ${e.offsetX} MouseY: ${e.offsetY}`;
+// document.querySelector('.card').addEventListener('click', function(){
+//   console.log('card');
+// });
 
-  document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
+// document.querySelector('.col').addEventListener('click', function(){
+//   console.log('col');
+// });
+
+// Event Delegation
+
+// const delItem = document.querySelector('.delete-item');
+
+// delItem.addEventListener('click', deleteItem);
+
+document.body.addEventListener('click', deleteItem);
+
+function deleteItem(e){
+  // if(e.target.parentElement.className === 'delete-item secondary-content'){
+  //   console.log('delete item');
+  // }
+  if(e.target.parentElement.classList.contains('delete-item')){
+    console.log('delete item');
+    e.target.parentElement.parentElement.remove();
+  }
 }
