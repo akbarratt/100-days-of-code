@@ -120,3 +120,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Realized how useful logging to the console can be when testing functions.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
+
+### Day 17: May 17, 2020
+
+**Today's Progress**: Finished the tutorial I was working on. Starting a to do list project tomorrow.
+
+**Thoughts:** Excited to start doing something practical.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
