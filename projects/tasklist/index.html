@@ -8,7 +8,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <div id="container">
+    <div id="task-box" class="box">
+      <h3>Add Task</h3>
+      <input type="text"><br>
+      <button id = "add-task">Add</button>
+    </div>
+    <div id="list-box" class="box">
+      <h3>To Do List</h3>
+      <ul>
+        <li>Task <a class = "x" href="">X</a></li>
+        <li>Task <a class = "x" href="">X</a></li>
+        <li>Task <a class = "x" href="">X</a></li>
+        <li>Task <a class = "x" href="">X</a></li>
+        <li>Task <a class = "x" href="">X</a></li>
+      </ul>
+      <button id="clear-tasks" type="button">Clear List</button>
+    </div>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+/* https://coolors.co/7bdff2-b2f7ef-eff7f6-f7d6e0-f2b5d4 */
+
+body{
+  background-color: #F2B5D4;
+  color: #EFF7F6;
+}
+
+#container {
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 20%;
+  box-shadow: azure;
+}
+
+.box {
+  padding: 5%;
+  border: 800px;
+  background-color: #7BDFF2;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #EFF7F6;
+}
+
+button {
+  color: white;
+  background-color: #F7D6E0;
+  border-radius: 20px;
+}
+
+ul {
+  background-color: aquamarine;
+}
+
+li {
+  color: antiquewhite;
+  padding: 2px;
+  background-color: darkslateblue;
+}
