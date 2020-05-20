@@ -127,4 +127,4 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Thoughts:** I'm excited to start on something practical!
 
-**Link to work:** https://github.com/akbarratt/100-days-of-code/blob/master/exercises/DOM-Manipulation/app.js
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
