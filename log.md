@@ -136,3 +136,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Had to look up a lot of reference but was surprised by how much I remembered.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 20: May 20, 2020
+
+**Today's Progress**: Got started on some basic JS functionality. X buttons now remove tasks from the list. When there are no tasks, the entire container is hidden.
+
+**Thoughts:** Took a lot of troubleshooting, but I let myself struggle with it. I don't struggle with the concepts and syntax as much as the logic and order of operations.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
