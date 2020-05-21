@@ -128,3 +128,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I'm excited to start on something practical!
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 19: May 19, 2020
+
+**Today's Progress**: Added basic styling. Ready to start on the JS tomorrow.
+
+**Thoughts:** Had to look up a lot of reference but was surprised by how much I remembered.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
