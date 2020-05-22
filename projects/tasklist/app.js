@@ -5,6 +5,33 @@ let xButtons = Array.from(xButton);
 
 let list = document.querySelector('ul');
 
+let addButton = document.querySelector('#add-task');
+
+// Store input in a variable
+
+// let taskInputText = document.querySelector("#task-input").value;
+let taskInputText = document.querySelector("#task-input");
+console.log(taskInputText);
+
+// Add event listener to add button
+
+addButton.addEventListener('click', addTask);
+
+function addTask (newTask){
+  // e.preventDefault;
+  // console.log(taskInputText);
+  newTask = document.createElement('li');
+  newTask.appendChild(taskInputText);
+  // newTask.setAttribute() + '<a class = "x" href="">X</a>'
+
+
+  // Add newly created li to ul
+  list.appendChild(newTask);
+  console.log(newTask);
+  console.log(taskInputText);
+}
+
+
 // X button removes <li> functionality.
 
 xButtons.forEach(function(a, index){
@@ -14,11 +41,8 @@ xButtons.forEach(function(a, index){
 function deleteTask(e) {
   e.preventDefault();
   if (e.target.classList.contains('x')){
-    console.log('Delete task.')
     e.target.parentElement.remove();
   }
-  lis = document.querySelectorAll ('li');
-  console.log(lis);
   // When task list is empty, hide list container.
   if (list.childElementCount === 0) {
     list.parentElement.style.visibility = 'hidden';
