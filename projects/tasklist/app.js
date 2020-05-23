@@ -42,6 +42,9 @@ function addTask (newTask){
   // Add newly created li to ul
   list.appendChild(newTask);
   console.log(newTask);
+  if (list.childElementCount > 0) {
+    list.parentElement.style.visibility = 'visible';
+  }
 }
 
 // TO DO xLink is only appended to the last <li> added.
@@ -62,8 +65,6 @@ function deleteTask(e) {
   if (list.childElementCount === 0) {
     list.parentElement.style.visibility = 'hidden';
     console.log('No children of UL');
-  } else {
-    list.parentElement.style.visibility = 'visible';
   }
 }
 
