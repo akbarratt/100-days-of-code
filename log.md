@@ -152,3 +152,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Discovered some pretty funny bugs.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 22: May 22, 2020
+
+**Today's Progress**: Fixed yesterday's bug, created some new ones.
+
+**Thoughts:** It's hard to get to a stopping point. Tried to write myself good notes so I could pick up easily but there's still a lot of time spent grinding gears trying to figure out where I left off.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
