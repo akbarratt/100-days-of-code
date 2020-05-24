@@ -35,6 +35,15 @@ li {
   color: antiquewhite;
   padding: 2px;
   background-color: darkslateblue;
+  /* This doesn't seem to work? */
+  list-style-position: outside;
+  display: flex;
+  justify-content: space-between;
+  /* Flexbox seems to have gotten rid of the basic styling */
+}
+
+li.a {
+  /* Need to figure out how to align X button to far left side of <li> */
 }
 
 /* Can I set even and odd children as alternating background colors here? */
