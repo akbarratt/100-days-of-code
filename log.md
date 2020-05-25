@@ -168,3 +168,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I need a refresher on flexbox.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 24: May 24, 2020
+
+**Today's Progress**: Dipped back into [Eloquent JavaScript](https://eloquentjavascript.net/). It was clear I was having trouble understanding scope so wanted to try it from a different angle.
+
+**Thoughts:** Might need another day or two on this.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
