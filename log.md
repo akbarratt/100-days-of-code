@@ -179,7 +179,7 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 ### Day 25: May 25, 2020
 
-**Today's Progress**: Read further on functions and their scope. [Eloquent JavaScript](https://eloquentjavascript.net/). Also found [this video](https://www.youtube.com/watch?v=LhSCEWHazAU) to be helpful.
+**Today's Progress**: Read further on functions and their scope in [Eloquent JavaScript](https://eloquentjavascript.net/). Also found [this video](https://www.youtube.com/watch?v=LhSCEWHazAU) to be helpful.
 
 **Thoughts:** My eyes are tired.
 
