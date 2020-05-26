@@ -176,3 +176,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Might need another day or two on this.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 25: May 25, 2020
+
+**Today's Progress**: Read further on functions and their scope. [Eloquent JavaScript](https://eloquentjavascript.net/). Also found this video to be helpful.
+
+**Thoughts:** My eyes are tired.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
