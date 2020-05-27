@@ -184,3 +184,10 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** My eyes are tired.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 26: May 26, 2020
+
+**Today's Progress**: This chapter is 25 pages and I read very slow.
+**Thoughts:** It's time for bed.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
