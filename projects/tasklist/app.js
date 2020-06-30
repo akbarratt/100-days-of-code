@@ -71,7 +71,3 @@ function deleteTask(e) {
     console.log('No children of UL');
   }
 }
-
-// Garbage (I think)
-
-// let lis = document.querySelectorAll ('li');
