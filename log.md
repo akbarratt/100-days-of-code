@@ -191,3 +191,10 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** It's time for bed.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 27: June 29, 2020
+
+**Today's Progress**: Back on it. I hit a wall with my task list so decided to go ahead and move forward by reviewing the tutorial and see how my attempt differed.
+**Thoughts:** I did a pretty good job! I'm proud of my solutions, even if they were cumbersome. I would like to learn more JS "best practices" and workflow, but I do learn best by just digging in, even though it goes against my predispositions.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
