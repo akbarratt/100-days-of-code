@@ -188,6 +188,7 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 ### Day 26: May 26, 2020
 
 **Today's Progress**: This chapter is 25 pages and I read very slow.
+
 **Thoughts:** It's time for bed.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
@@ -195,6 +196,15 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 ### Day 27: June 29, 2020
 
 **Today's Progress**: Back on it. I hit a wall with my task list so decided to go ahead and move forward by reviewing the tutorial and see how my attempt differed.
+
 **Thoughts:** I did a pretty good job! I'm proud of my solutions, even if they were cumbersome. I would like to learn more JS "best practices" and workflow, but I do learn best by just digging in, even though it goes against my predispositions.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 28: June 30, 2020
+
+**Today's Progress**: Moving ahead, I missed some functionality so created a list of features to add and work on tomorrow. Reviewed which methods return a node list vs. HTML collection. Still confusing.
+
+**Thoughts:** Only had a little time today but better than nothing.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
