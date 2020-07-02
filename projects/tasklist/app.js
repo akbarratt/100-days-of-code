@@ -1,16 +1,10 @@
 // Declarations
 let listBox = document.querySelector('#list-box');
-
 let xButton = document.getElementsByClassName('x');
-
 let xButtons = Array.from(xButton);
-
 let list = document.querySelector('ul');
-
 let clearButton = document.querySelector('#clear-tasks');
-
 let addButton = document.querySelector('#add-task');
-
 let taskInput = document.querySelector("#task-input");
 
 // Store input in a variable
@@ -72,11 +66,15 @@ function deleteTask(e) {
 }
 
 // Clear List function
-
 function clearList (e) {
   let clearConfirm = confirm ('Do you really want to clear all tasks?');
   if (clearConfirm === true) {
-    alert('Okay.');
+    while (list.firstChild) {
+      list.removeChild(list.firstChild);
+    }
+  }
+  if (list.childElementCount === 0) {
+  list.parentElement.style.visibility = 'hidden';
   }
 }
 
@@ -88,3 +86,7 @@ function clearList (e) {
 // } else {
 //   list.parentElement.style.visibility = 'visible';
 // }
+
+// To Do:
+// Bug: long tasks don't wrap!
+// Styles ugly.
