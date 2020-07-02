@@ -7,7 +7,7 @@ let xButtons = Array.from(xButton);
 
 let list = document.querySelector('ul');
 
-let resetButton = document.querySelector('#clear-tasks');
+let clearButton = document.querySelector('#clear-tasks');
 
 let addButton = document.querySelector('#add-task');
 
@@ -26,6 +26,7 @@ function loadEventListeners(){
   xButtons.forEach(function(a, index){
     a.addEventListener('click', deleteTask);
     })
+  clearButton.addEventListener('click' ,clearList);
 }
 
 // Add task function
@@ -33,10 +34,8 @@ function addTask (e){
   if(taskInput.value === '') {
     alert('Add a task');
   } else {
-  // console.log(taskInputText);
   const newTask = document.createElement('li');
   // Add input text to newly created <li>
-  // newTask.textContent = taskInputText;
   newTask.appendChild(document.createTextNode(taskInput.value));
   // Create x button link
   let xLink = document.createElement('a');
@@ -53,6 +52,7 @@ function addTask (e){
   // Clear input field
   taskInput.value = '';
   }
+  //When I delete the following, new LIs added don't reopen the hidden container UL.
   if (list.childElementCount > 0) {
     list.parentElement.style.visibility = 'visible';
   }
@@ -72,3 +72,19 @@ function deleteTask(e) {
 }
 
 // Clear List function
+
+function clearList (e) {
+  let clearConfirm = confirm ('Do you really want to clear all tasks?');
+  if (clearConfirm === true) {
+    alert('Okay.');
+  }
+}
+
+// When I try to take the container in/visible property outside of the functions, for some reason it doesn't work.
+
+// if (list.childElementCount === 0) {
+//   list.parentElement.style.visibility = 'hidden';
+//   console.log('No children of UL');
+// } else {
+//   list.parentElement.style.visibility = 'visible';
+// }
