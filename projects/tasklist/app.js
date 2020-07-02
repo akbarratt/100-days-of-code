@@ -1,5 +1,4 @@
 // Declarations
-
 let listBox = document.querySelector('#list-box');
 
 let xButton = document.getElementsByClassName('x');
@@ -15,13 +14,21 @@ let addButton = document.querySelector('#add-task');
 let taskInput = document.querySelector("#task-input");
 
 // Store input in a variable
-
 let taskInputText = document.querySelector("#task-input").value;
 
-// Add event listener to add button
+// Load all event listeners
+loadEventListeners();
 
-addButton.addEventListener('click', addTask);
+function loadEventListeners(){
+  // Add "add task" event listener to add button
+  addButton.addEventListener('click', addTask);
+  // Add "remove task" event listener to X button
+  xButtons.forEach(function(a, index){
+    a.addEventListener('click', deleteTask);
+    })
+}
 
+// Add task function
 function addTask (e){
   if(taskInput.value === '') {
     alert('Add a task');
@@ -51,15 +58,7 @@ function addTask (e){
   }
 }
 
-// TO DO xLink is only appended to the last <li> added.
-
-
-// X button removes <li>
-
-xButtons.forEach(function(a, index){
-  a.addEventListener('click', deleteTask);
-})
-
+// Delete task function
 function deleteTask(e) {
   e.preventDefault();
   if (e.target.classList.contains('x')){
@@ -71,3 +70,5 @@ function deleteTask(e) {
     console.log('No children of UL');
   }
 }
+
+// Clear List function
