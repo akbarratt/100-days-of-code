@@ -208,3 +208,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Only had a little time today but better than nothing.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 29: July 1, 2020
+
+**Today's Progress**: Did a deep dive on memory in the browser.
+
+**Thoughts:** Still having a hard time understanding, but I'm thinking this may be one of those things you just have to learn with practice.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
