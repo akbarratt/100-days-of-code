@@ -224,3 +224,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I could spend forever perfecting this one project, but probably best to move on soon.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 31: July 3, 2020
+
+**Today's Progress**: Learned about JSON.
+
+**Thoughts:** I'm quite tired.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
