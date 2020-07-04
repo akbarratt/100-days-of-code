@@ -46,10 +46,8 @@ function addTask (e){
   // Clear input field
   taskInput.value = '';
   }
-  //When I delete the following, new LIs added don't reopen the hidden container UL.
-  if (list.childElementCount > 0) {
-    list.parentElement.style.visibility = 'visible';
-  }
+  // When task list is empty, hide list container.
+  checkList();
 }
 
 // Delete task function
@@ -59,10 +57,7 @@ function deleteTask(e) {
     e.target.parentElement.remove();
   }
   // When task list is empty, hide list container.
-  if (list.childElementCount === 0) {
-    list.parentElement.style.visibility = 'hidden';
-    console.log('No children of UL');
-  }
+  checkList();
 }
 
 // Clear List function
@@ -73,19 +68,17 @@ function clearList (e) {
       list.removeChild(list.firstChild);
     }
   }
-  if (list.childElementCount === 0) {
-  list.parentElement.style.visibility = 'hidden';
-  }
+  // When task list is empty, hide list container.
+  checkList();
 }
 
-// When I try to take the container in/visible property outside of the functions, for some reason it doesn't work.
-
-// if (list.childElementCount === 0) {
-//   list.parentElement.style.visibility = 'hidden';
-//   console.log('No children of UL');
-// } else {
-//   list.parentElement.style.visibility = 'visible';
-// }
+function checkList() {
+  if (list.childElementCount === 0) {
+    list.parentElement.style.visibility = 'hidden';
+  } else {
+      list.parentElement.style.visibility = 'visible';
+  }
+}
 
 // To Do:
 // Bug: long tasks don't wrap!
