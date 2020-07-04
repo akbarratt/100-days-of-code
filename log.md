@@ -232,3 +232,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I'm quite tired.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 32: July 4, 2020
+
+**Today's Progress**: Realized I was reusing some code in the show/hide list container feature so abstracted it into its own function.
+
+**Thoughts:** It was a lot easier than I expected. I'm starting to wrap my head around the core concepts.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
