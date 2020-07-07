@@ -240,3 +240,19 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** It was a lot easier than I expected. I'm starting to wrap my head around the core concepts.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 33: July 5, 2020
+
+**Today's Progress**: Added a function to filter tasks.
+
+**Thoughts:** Hard to figure out the layout on this one. Don't love the styling.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 34: July 6, 2020
+
+**Today's Progress**: Worked some more on the filter. Rewrote it. Broke it. Try again tomorrow.
+
+**Thoughts:** Meh.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
