@@ -13,11 +13,14 @@
     <div id="task-box" class="box">
       <h3>Add Task</h3>
       <!--Brad put this in a form.-->
+      <!--Putting the input inside of a form would result in different behavior from the browser due to how HTML works.-->
       <input type="text" id = "task-input" value="Walk the dog"><br>
       <button id = "add-task">Add</button>
     </div>
     <!--This div contains the interactive task list-->
     <div id="list-box" class="box">
+      <h4>Filter Tasks</h4>
+      <input type="text" id = "filter" value=""><br>
       <h3>To Do List</h3>
       <ul>
         <li>Task <a class = "x" href="">X</a></li>

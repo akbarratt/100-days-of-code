@@ -6,7 +6,7 @@ let list = document.querySelector('ul');
 let clearButton = document.querySelector('#clear-tasks');
 let addButton = document.querySelector('#add-task');
 let taskInput = document.querySelector("#task-input");
-
+let filter = document.querySelector("#filter");
 // Store input in a variable
 let taskInputText = document.querySelector("#task-input").value;
 
@@ -14,13 +14,16 @@ let taskInputText = document.querySelector("#task-input").value;
 loadEventListeners();
 
 function loadEventListeners(){
-  // Add "add task" event listener to add button
+  // Add new LI on click
   addButton.addEventListener('click', addTask);
-  // Add "remove task" event listener to X button
+  // Click x button to remove tasks
   xButtons.forEach(function(a, index){
     a.addEventListener('click', deleteTask);
     })
-  clearButton.addEventListener('click' ,clearList);
+  // Clear all tasks on click of clear button
+  clearButton.addEventListener('click',clearList);
+  // Filter functionality
+  filter.addEventListener('keyup', filterTasks);
 }
 
 // Add task function
@@ -80,6 +83,30 @@ function checkList() {
   }
 }
 
+function filterTasks (e) {
+  let text = e.target.value.toLowerCase();
+  document.getElementsByTagName('li');
+  console.log(document.getElementsByTagName('li'));
+}
+
+function filterTasks (e) {
+  let text = e.target.value.toLowerCase();
+  let tasksArray = Array.from(document.getElementsByTagName('li'));
+  // You can't run .forEach on an HTML collection. Didn't want to bother adding a new class to the list items so converted HMTLcollection to an array instead. Not working.
+  tasksArray.forEach(function(allTasks) {
+    const item = allTasks.firstChild.textContent;
+    if(item.toLowerCase().indexOf(text) != -1){
+      taskInput.style.display = 'block';
+    } else {
+      taskInput.style.display = 'none';
+    }
+  })
+}
+
+
+
 // To Do:
 // Bug: long tasks don't wrap!
 // Styles ugly.
+
+

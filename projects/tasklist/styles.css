@@ -42,4 +42,8 @@ li {
   /* Flexbox seems to have gotten rid of the basic styling */
 }
 
+h3, h4 {
+  margin: 10px;
+}
+
 /* Can I set even and odd children as alternating background colors here? */
