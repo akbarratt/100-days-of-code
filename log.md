@@ -256,3 +256,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Meh.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 35: July 7, 2020
+
+**Today's Progress**: Fixed filter, but broke some styles in the process.
+
+**Thoughts:** I really struggle to come up with semantic names for functions and keywords.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
