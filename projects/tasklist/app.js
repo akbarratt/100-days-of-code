@@ -92,21 +92,25 @@ function filterTasks (e) {
 function filterTasks (e) {
   let text = e.target.value.toLowerCase();
   let tasksArray = Array.from(document.getElementsByTagName('li'));
-  // You can't run .forEach on an HTML collection. Didn't want to bother adding a new class to the list items so converted HMTLcollection to an array instead. Not working.
-  tasksArray.forEach(function(allTasks) {
-    const item = allTasks.firstChild.textContent;
+  tasksArray.forEach(function(eachTask) {
+    const item = eachTask.firstChild.textContent;
     if(item.toLowerCase().indexOf(text) != -1){
-      taskInput.style.display = 'block';
+    eachTask.style.display = 'block';
     } else {
-      taskInput.style.display = 'none';
+    eachTask.style.display = 'none';
     }
   })
 }
+
+// Putting above function in just messed up all my LI styling. Possibly because it's an HTMLcollection?
+
+// Brad did this as a node list with querySelectorAll. You can't run .forEach on an HTML collection. Didn't want to bother adding a new class to the list items so converted HMTLcollection to an array instead. Buggy.
 
 
 
 // To Do:
 // Bug: long tasks don't wrap!
 // Styles ugly.
+// Bug: when using filter function LI styles change.
 
 
