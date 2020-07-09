@@ -272,3 +272,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I feel like I'm not grasping this so just need to power through and move on for now.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 37: July 9, 2020
+
+**Today's Progress**: Wrapped up the task list project by adding the ability to recover and remove items from local storage.
+
+**Thoughts:** I started my work today feeling really frustrated but I solved a few problems on my, own and seeing everything come together was very gratifying.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
