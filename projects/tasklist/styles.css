@@ -5,6 +5,10 @@ body{
   color: #EFF7F6;
 }
 
+div#list-box {
+  visibility: hidden;
+}
+
 #container {
   padding-right: 20%;
   padding-left: 20%;

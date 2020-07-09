@@ -46,11 +46,30 @@ function addTask (e){
   // Add newly created li to ul
   list.appendChild(newTask);
   console.log(newTask);
+
+  // Store in local storage
+  storeTaskInLocalStorage(taskInput.value);
+
   // Clear input field
   taskInput.value = '';
   }
   // When task list is empty, hide list container.
   checkList();
+}
+
+// Store tast in local storage
+
+function storeTaskInLocalStorage(task) {
+  let tasks;
+  if(localStorage.getItem('tasks') === null){
+    tasks = [];
+  } else {
+    tasks = JSON.parse(localStorage.getItem('tasks'));
+  }
+
+  tasks.push(task);
+
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 // Delete task function
@@ -102,7 +121,7 @@ function filterTasks (e) {
   })
 }
 
-// Putting above function in just messed up all my LI styling. Possibly because it's an HTMLcollection?
+// Putting above function in just messed up all my LI styling. Possibly because it's an HTMLcollection? Or possibly because the close button is in text. But searching 'x' doesn't bring up all tasks.
 
 // Brad did this as a node list with querySelectorAll. You can't run .forEach on an HTML collection. Didn't want to bother adding a new class to the list items so converted HMTLcollection to an array instead. Buggy.
 
