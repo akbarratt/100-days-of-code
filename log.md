@@ -264,3 +264,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I really struggle to come up with semantic names for functions and keywords.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 36: July 8, 2020
+
+**Today's Progress**: Just started working with local storage again.
+
+**Thoughts:** I feel like I'm not grasping this so just need to power through and move on for now.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
