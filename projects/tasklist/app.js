@@ -14,6 +14,8 @@ let taskInputText = document.querySelector("#task-input").value;
 loadEventListeners();
 
 function loadEventListeners(){
+  // DOM load event
+  document.addEventListener('DOMContentLoaded', getTasks);
   // Add new LI on click
   addButton.addEventListener('click', addTask);
   // Click x button to remove tasks
@@ -24,6 +26,33 @@ function loadEventListeners(){
   clearButton.addEventListener('click',clearList);
   // Filter functionality
   filter.addEventListener('keyup', filterTasks);
+}
+
+// Get tasks from local storage
+function getTasks() {
+  let tasks;
+  if(localStorage.getItem('tasks') === null){
+    tasks = [];
+  } else {
+    tasks = JSON.parse(localStorage.getItem('tasks'));
+  }
+  tasks.forEach(function(task){
+    const newTask = document.createElement('li');
+    // Add input text to newly created <li>
+    newTask.appendChild(document.createTextNode(task));
+    // Create x button link
+    let xLink = document.createElement('a');
+    xLink.textContent = 'X';
+    xLink.className = 'x';
+    xLink.setAttribute('href', '');
+    // Add event listener to make x button delete <li> on click
+    xLink.addEventListener('click', deleteTask);
+    // Append x link to newly created <li>
+    newTask.appendChild(xLink);
+    // Add newly created li to ul
+    list.appendChild(newTask);
+    checkList();
+  });
 }
 
 // Add task function
@@ -57,8 +86,7 @@ function addTask (e){
   checkList();
 }
 
-// Store tast in local storage
-
+// Store task in local storage
 function storeTaskInLocalStorage(task) {
   let tasks;
   if(localStorage.getItem('tasks') === null){
@@ -66,9 +94,7 @@ function storeTaskInLocalStorage(task) {
   } else {
     tasks = JSON.parse(localStorage.getItem('tasks'));
   }
-
   tasks.push(task);
-
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
@@ -77,9 +103,31 @@ function deleteTask(e) {
   e.preventDefault();
   if (e.target.classList.contains('x')){
     e.target.parentElement.remove();
+    //Remove from local storage
+    removeTaskFromLocalStorage(e.target.parentElement);
   }
   // When task list is empty, hide list container.
   checkList();
+}
+
+// Remove from local storage
+// Why doesn't this work? More deviations from tutorial. Text content adds that 'X'.
+function removeTaskFromLocalStorage(taskItem) {
+  console.log(taskItem.textContent);
+  let tasks;
+  if(localStorage.getItem('tasks') === null){
+    tasks = [];
+  } else {
+    tasks = JSON.parse(localStorage.getItem('tasks'));
+  }
+
+  tasks.forEach(function(task, index){
+    if(taskItem.textContent === task + 'X'){
+      tasks.splice(index, 1);
+    }
+  });
+
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
 // Clear List function
@@ -90,9 +138,16 @@ function clearList (e) {
       list.removeChild(list.firstChild);
     }
   }
+  clearTasksFromLocalStorage();
   // When task list is empty, hide list container.
   checkList();
 }
+
+// Clear tasks from local storage
+function clearTasksFromLocalStorage() {
+  localStorage.clear();
+}
+
 
 function checkList() {
   if (list.childElementCount === 0) {
@@ -131,5 +186,6 @@ function filterTasks (e) {
 // Bug: long tasks don't wrap!
 // Styles ugly.
 // Bug: when using filter function LI styles change.
-
+// Bug: resizing the browser does strange things to the input fields.
+// Need to change delete button from text because it's getting pulled in any time I call text content.
 
