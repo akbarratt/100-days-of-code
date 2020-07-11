@@ -277,6 +277,14 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Today's Progress**: Wrapped up the task list project by adding the ability to recover and remove items from local storage.
 
-**Thoughts:** I started my work today feeling really frustrated but I solved a few problems on my, own and seeing everything come together was very gratifying.
+**Thoughts:** I started my work today feeling really frustrated but I solved a few problems on my own and seeing everything come together was very gratifying.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 38: July 10, 2020
+
+**Today's Progress**: Started working on the next project, a loan calculator. Building and styling.
+
+**Thoughts:** It bothers me so much that the tutorial I'm following is using Bootstrap. Call me a masochist but I like building web apps from the ground up.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
