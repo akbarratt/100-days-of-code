@@ -288,3 +288,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** It bothers me so much that the tutorial I'm following is using Bootstrap. Call me a masochist but I like building web apps from the ground up.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 39: July 11, 2020
+
+**Today's Progress**: Finished rudimentary styling, began programming but got stuck.
+
+**Thoughts:** By all accounts this should be easier than the last project but dealing with values rather than text content has proved challenging.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
