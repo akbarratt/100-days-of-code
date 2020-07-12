@@ -1,5 +1,5 @@
 body {
-  background-color: darkblue;
+  background-color: black;
 }
 
 div.container {
@@ -14,3 +14,11 @@ div.container {
 button {
   margin: 2%;
 }
+
+table {
+  background-color: white;
+  table-layout: fixed;
+  width: 100%;
+  border: 3px solid purple;
+}
+
