@@ -296,3 +296,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** By all accounts this should be easier than the last project but dealing with values rather than text content has proved challenging.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 40: July 12, 2020
+
+**Today's Progress**: Stared at my code for 30 minutes and couldn't figure out what was wrong with it.
+
+**Thoughts:** I'm frustrated.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
