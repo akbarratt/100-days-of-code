@@ -312,3 +312,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I don't have the brainpower for this today.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 42: July 14, 2020
+
+**Today's Progress**: Figured out my errors and the basic calculator functionality is now completed.
+
+**Thoughts:** I had to follow the tutorial more closely than I would have liked to figure this one out. I did learn some valuable lessons about type coercion.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
