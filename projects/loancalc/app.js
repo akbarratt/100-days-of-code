@@ -1,22 +1,30 @@
 // Variable declarations
 
-// None of this is working. HTML collection vs node list? No, Brad said it makes no difference.
+// Any work with the values have to be done inside the function because it requires user input.
+// const amtInput = document.querySelector('#amt-input');
+const intInput = document.querySelector('#int-input');
+const yrsInput = document.querySelector('#years-input');
+const monthlyPayment = document.querySelector('#monthly-payment');
+const totalPayment = document.querySelector('#total-payment');
+const totalInterest = document.querySelector('#total-interest');
 
-const amtInput = parseFloat(document.querySelectorAll('#amt-input').value);
-// const intInput = document.querySelectorAll('#int-input').textContent;
-const intInput = document.querySelectorAll('#int-input').value;
-const yrsInput = document.querySelectorAll('#years-input').value;
-
+// Listen for form submit
 document.getElementById('loan-form').addEventListener('submit', calculateResults);
 
+// Calculate results on submit
 function calculateResults(e) {
-  console.log("submit");
-  calcMonthlyPayment();
-  e.preventDefault(); 
-  console.log(parseFloat(intInput));
+  e.preventDefault();
+  // if amtInput
+  // calcMonthlyPayment();
+  // calcTotalPayment();
+  // calcTotalInterest();
+  let amtInput = document.querySelector('#amt-input');
+  let principal = parseFloat(amtInput.value);
+  console.log(principal);
+  console.log(principal.typeof);
 }
 
 function calcMonthlyPayment() {
-  let monthlyPayment = amtInput / 12;
-  console.log(monthlyPayment);
+  // let monthlyPayment = amtInput.value / 12;
+  // console.log(monthlyPayment);
 }
