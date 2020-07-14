@@ -304,3 +304,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I'm frustrated.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 41: July 13, 2020
+
+**Today's Progress**: I was finally able to produce a number but somehow getting an error that that value is also undefined. 
+
+**Thoughts:** I don't have the brainpower for this today.
+
+**Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
