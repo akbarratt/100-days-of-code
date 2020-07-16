@@ -320,3 +320,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I had to follow the tutorial more closely than I would have liked to figure this one out. I did learn some valuable lessons about type coercion.
 
 **Link to work:** https://github.com/akbarratt/100-days-of-code/tree/master/projects/tasklist
+
+### Day 43: July 15, 2020
+
+**Today's Progress**: Spent the day figuring out how to get my GitHub pages back in operation.
+
+**Thoughts:** I don't remember any of this.
+
+**Link to work:** https://akbarratt.github.io
