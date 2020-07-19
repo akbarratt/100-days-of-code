@@ -328,3 +328,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I don't remember any of this.
 
 **Link to work:** https://akbarratt.github.io
+
+### Day 44: July 16, 2020
+
+**Today's Progress**: Figured out how to redirect my github pages to my custom domain.
+
+**Thoughts:** The documentation was horrible!
+
+**Link to work:** https://akbarratt.com/code100
