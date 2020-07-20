@@ -329,10 +329,18 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.github.io
 
-### Day 44: July 16, 2020
+### Day 44: July 18, 2020
 
 **Today's Progress**: Figured out how to redirect my github pages to my custom domain.
 
 **Thoughts:** The documentation was horrible!
 
 **Link to work:** https://akbarratt.com/code100
+
+### Day 45: July 19, 2020
+
+**Today's Progress**: Started working on a little landing page for my domain. Not done yet.
+
+**Thoughts:** Struggling with the new git workflow, it's a bit more complicated now.
+
+**Link to work:** https://akbarratt.com/
