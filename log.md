@@ -344,3 +344,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Struggling with the new git workflow, it's a bit more complicated now.
 
 **Link to work:** https://akbarratt.com/
+
+### Day 46: July 20, 2020
+
+**Today's Progress**: Landing page done for now.
+
+**Thoughts:** I fiddled with it a bunch and then ended up not liking any of my changes so it's very simple for the time being. Good subject for a refresher on CSS though.
+
+**Link to work:** https://akbarratt.com/
