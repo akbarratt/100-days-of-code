@@ -352,3 +352,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I fiddled with it a bunch and then ended up not liking any of my changes so it's very simple for the time being. Good subject for a refresher on CSS though.
 
 **Link to work:** https://akbarratt.com/
+
+### Day 47: July 23, 2020
+
+**Today's Progress**: Back to work on the calculator. Added an error message that times out.
+
+**Thoughts:** Don't always have time to work on my JS but even a little bit every day is better than nothing.
+
+**Link to work:** https://akbarratt.com/code100/projects/loancalc
