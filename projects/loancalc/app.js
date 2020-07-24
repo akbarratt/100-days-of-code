@@ -23,23 +23,50 @@ function calculateResults(e) {
   const x = Math.pow(1 + calculatedInterest, calculatedPayments);
   const monthly = (principal*x*calculatedInterest)/(x-1);
   
-  console.log(principal);
-  console.log(calculatedInterest);
-  console.log(calculatedPayments);
-  console.log(monthly);
+  // console.log(principal);
+  // console.log(calculatedInterest);
+  // console.log(calculatedPayments);
+  // console.log(monthly);
 
   if(isFinite(monthly)) {
     monthlyPayment.innerHTML = monthly.toFixed(2);
     totalPayment.innerHTML = (monthly * calculatedPayments).toFixed(2);
     totalInterest.innerHTML = ((monthly * calculatedPayments)-principal).toFixed(2);
   } else {
-    alert('Error, please check your numbers.');
+    showError('Please check your numbers.')
   }
 }
 
 // In this case it seems like isFinite serves the function I was trying to do, which was check whether the result of the form input was a number.
 
-// I was using typeof incorrectly. :)
+// Show Error
+function showError(error) {
+  // Create a div
+  const errorDiv = document.createElement('div');
+
+  // Get elements
+  const card = document.querySelector('#calc-cont');
+  const heading = document.querySelector('.heading')
+
+  // Add class
+  errorDiv.className = 'alert';
+
+  // Create text node and append to div
+  errorDiv.appendChild(document.createTextNode(error));
+  // How does it know what text to pass in for 'error'?
+
+  // Insert error above heading
+  card.insertBefore(errorDiv, heading);
+  
+  // Clear error after 3 secords
+  setTimeout(clearError, 3000);
+}
+
+// Clear error
+function clearError(){
+  document.querySelector('.alert').remove();
+}
+
 
 // To Do:
 // Input field of type "number" does not allow a decimal and trying to place one results in a browser error.
