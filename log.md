@@ -368,3 +368,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Still having some workflow issues but the process is making more sense to me now.
 
 **Link to work:** https://akbarratt.com/code100/projects/loancalc
+
+### Day 49: July 25, 2020
+
+**Today's Progress**: Initialized a new project, a number guessing game.
+
+**Thoughts:** Used the framework this time. Why not.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
