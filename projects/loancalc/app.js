@@ -9,11 +9,21 @@ const totalPayment = document.querySelector('#total-payment');
 const totalInterest = document.querySelector('#total-interest');
 
 // Listen for form submit
-document.getElementById('loan-form').addEventListener('submit', calculateResults);
+document.getElementById('loan-form').addEventListener('submit', function(e){
+  // Hide results
+  document.getElementById('result-cont').style.display = 'none';
+  
+  // Show loader on click
+  document.getElementById('loader').style.display = 'block';
+
+  // Timeout
+  setTimeout(calculateResults, 2000);
+
+  e.preventDefault();
+});
 
 // Calculate results on submit
-function calculateResults(e) {
-  e.preventDefault();
+function calculateResults() {
   // How do I return an error? Because running any data type through parseFloat will force it to be a number.
   const principal = parseFloat(amtInput.value);
   const calculatedInterest = parseFloat(intInput.value) / 100 / 12;
@@ -32,6 +42,9 @@ function calculateResults(e) {
     monthlyPayment.innerHTML = monthly.toFixed(2);
     totalPayment.innerHTML = (monthly * calculatedPayments).toFixed(2);
     totalInterest.innerHTML = ((monthly * calculatedPayments)-principal).toFixed(2);
+    // Show results, hide loader
+    document.getElementById('result-cont').style.display = 'block';
+    document.getElementById('loader').style.display = 'none';
   } else {
     showError('Please check your numbers.')
   }
@@ -41,6 +54,10 @@ function calculateResults(e) {
 
 // Show Error
 function showError(error) {
+  // Hide loader, results
+  document.getElementById('result-cont').style.display = 'none';
+  document.getElementById('loader').style.display = 'none';
+  
   // Create a div
   const errorDiv = document.createElement('div');
 

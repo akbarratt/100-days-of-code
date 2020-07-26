@@ -26,3 +26,11 @@ table {
   background-color: pink;
   border: 3px solid red;
 }
+
+#loader-gif {
+  max-width: 50%;
+}
+
+#loader, #result-cont {
+  display:none;
+}
