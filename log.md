@@ -376,3 +376,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Used the framework this time. Why not.
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
+
+### Day 50: July 26, 2020
+
+**Today's Progress**: Got started on the programming. Struggling with how to parse numbers again, which I just did in the last project.
+
+**Thoughts:** Lack of retention has been frustrating.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
