@@ -74,4 +74,4 @@ function game(){
 // - Reset button
 // - I could pull in some functions to deal with the plurals / negative guesses but that could be complicated and overkill.
 // - How to tell what the correct answer was while ending the game and not allowing for further guesses? Would need to change the 'undefined' workaround in place now.
-
+// - BUG: win condition not permanent. If winner guesses again, game continues.
