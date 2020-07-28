@@ -17,6 +17,8 @@ let generatedNumber;
 let guesses = 0;
 // Run number generation function
 numGen();
+// Testing: Log generatedNubmer
+console.log('Generated number: ' + generatedNumber);
 
 //_________________________
 // Load all event listeners
@@ -33,26 +35,31 @@ submitBtn.addEventListener('click', submitGuess);
 function numGen() {
   generatedNumber = Math.ceil((Math.random() * 10));
   testnum.textContent = generatedNumber;
-  console.log(typeof(generatedNumber));
 }
 
 // Submit guess event handler
 function submitGuess(e) {
   let guess = parseInt(guessInput.value);
-  // parseInt should be sufficient for now because it rounds up
+  // parseInt should be sufficient for now because it rounds up, but eventually need to disallow decimals
   console.log('User input guess:' + guess);
   // If not a number 1-10, error
   if(guess > 10 || guess < 1){
     console.log('Number must be 1-10.')
   } else if (guess !== generatedNumber) {
-    console.log('incorrect guess', generatedNumber);
+    console.log('incorrect guess');
     guesses++
     console.log('Number of guesses:' + guesses);
   } else {
     console.log('correct');
   }
+  // Game Over condition (doesn't work outside of the game)
+  if (guesses >= 3) {
+    console.log('Game Over');
+  }
   e.preventDefault();
+  // Does the whole game have to run inside the event handler? Can this be abstracted? I'm clearly struggling to understand scope.
 }
+
 
 
 
