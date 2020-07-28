@@ -393,3 +393,12 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 52: July 28, 2020
+
+**Today's Progress**: Worked on the game functions and abstracted it to its own function. Added some win condition text.
+
+**Thoughts:** The basic gameplay mechanism is done and playable! Needs some polish and beautifying. Wrote a to do list to work on next time.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
+
