@@ -384,3 +384,12 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Lack of retention has been frustrating.
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
+
+### Day 51: July 27, 2020
+
+**Today's Progress**: Struggling with numbers again, and equality. Found out and eliminated a shadow varible that was tripping me up.
+
+**Thoughts:** Almost gave up and just followed the tutorial but decided to give it another shot and I'm glad I did. It's more rewarding to figure it out on my own.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
