@@ -401,4 +401,20 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 53: July 29, 2020
+
+**Today's Progress**: All I had energy to do was struggle to read this framework documentation.
+
+**Thoughts:** I'm exhausted today.
+
+**Link to work:** N/A
+
+### Day 54: July 30, 2020
+
+**Today's Progress**: NOW the game is functional and, to the best of my knowlege, bug free.
+
+**Thoughts:** Tomorrow will move forward with checking against the tutorial and beautification.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
 
