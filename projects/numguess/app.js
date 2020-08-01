@@ -18,7 +18,7 @@ const retryBtn = document.getElementById('retry-btn');
 // Initialize generated number
 let generatedNumber;
 // Guesses baseline
-let guesses = 0;
+let guesses = 3;
 // Run number generation function
 numGen();
 // Testing: Log generatedNubmer
@@ -56,42 +56,53 @@ function submitGuess(e) {
   let guess = parseInt(guessInput.value);
   // parseInt should be sufficient for now because it rounds up, but eventually need to disallow decimals
   console.log('User input guess:' + guess);
+
+  // Check first for game over condition.
+  if (guesses === 'gameover') {
+    gameOver();
   // If not a number 1-10, error
-  if(guess > 10 || guess < 1 || isNaN(guess)){
+  } else if(guess > 10 || guess < 1 || isNaN(guess)){
     console.log('Number must be 1-10.')
-    results.textContent = 'Number must be 1-10. '+ (3-guesses) + ' guess(es) remaining.';
-  } else if (guesses === null) {
-    results.textContent = 'You already won! '
+    results.textContent = 'Number must be 1-10. '+ (guesses) + ' guess(es) remaining.';
+  // If all clear, run game function.
   } else {
     game();
   }
 }
 
-// Number guessing game
+// Number guessing game function
 function game(){
+  // Convert user input string to whole number, rounding up
   let guess = parseInt(guessInput.value);
-  if (guess !== generatedNumber) {
-    /*testing*/console.log('incorrect guess');
-    guesses++
-    results.textContent = 'Incorrect. ' + (3-guesses) + ' guess(es) remaining.';
-    /*testing*/console.log('Number of guesses:' + guesses);
+  //Incorrect guess
+  if (guess !== generatedNumber && guesses > 0) {
+    guesses--
+    results.textContent = 'Incorrect. ' + (guesses) + ' guesses remaining.';
+  // Win condition
   } else if (guess === generatedNumber) {
-    /*testing*/console.log('correct');
-    results.textContent = 'Correct! You win!';
+    results.textContent = 'The correct answer was ' + generatedNumber + '. You win!';
     retry();
-    guesses = null;
-  } 
-  if (guesses >=3){
-    /*testing*/console.log('Game Over');
-    results.textContent = 'Sorry, game over!';
-    generatedNumber = undefined;
+    guesses = 'gameover'
+  }
+  // Lose condition
+  if (guesses <= 0){
+    results.textContent = 'Sorry, game over! The correct answer was ' + generatedNumber + '.';
     retry();
+    guesses = 'gameover'
   }
 }
 
+// Game Over function. Does nothing but console log. Might be a better solution for this.
+function gameOver(){
+  console.log('Testing: Game over condition.')
+}
+
+// ________________
 // TO DO:
 // - Reset button
 // - I could pull in some functions to deal with the plurals / negative guesses but that could be complicated and overkill.
 // - How to tell what the correct answer was while ending the game and not allowing for further guesses? Would need to change the 'undefined' workaround in place now.
 // - FEATURE: show which numbers have already been guessed and prevent guessing the same number twice (array?)
 // - NOTE: David thinks the HTML element can handle validation and require input.
+// - FEATURE: Hint when you get to your last guess about whether it's high or lower than your current guess.
+// - NOTE: Most of my problems were solved by counting down the guesses rather than starting from 0 and then counting up.
