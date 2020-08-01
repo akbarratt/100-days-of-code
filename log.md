@@ -417,4 +417,13 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 55: July 31, 2020
+
+**Today's Progress**: In fixing some bugs and optimizing the game functions, I accidentally reintroduced some old bugs. Found an inelegant solution but it works for now. Abstracting the game over condition into its own function.
+
+**Thoughts:** Scope is hard!
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
+
 
