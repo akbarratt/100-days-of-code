@@ -4,7 +4,7 @@
 // User input (need to ensure this only accepts a value 1-10)
 const guessInput = document.getElementById('guess-input');
 // Submit button
-const submitBtn = document.getElementById('guess-value'); // this doesn't seem semantic to me
+const submitBtn = document.getElementById('guess-btn'); // this doesn't seem semantic to me
 // Win condition span
 const results = document.getElementById('results');
 // Retry container
@@ -106,3 +106,10 @@ function gameOver(){
 // - NOTE: David thinks the HTML element can handle validation and require input.
 // - FEATURE: Hint when you get to your last guess about whether it's high or lower than your current guess.
 // - NOTE: Most of my problems were solved by counting down the guesses rather than starting from 0 and then counting up.
+
+//_________
+// TUTORIAL NOTES
+// - Min and max number values are dynamic (hence the spans)
+// - Brad abstracted the results.textContent into its own function setMessage(). That was the point of the blank p.message.
+// - Disable input
+// - Changed input border color with guessInput.style.borderColor. Also changed message colors by adding a second parameter.
