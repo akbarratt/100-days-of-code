@@ -425,5 +425,13 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 56: August 3, 2020
+
+**Today's Progress**: Reviewing my work against the tutorial I'm following and I think I did a pretty good job coming up with my own solutions. 
+
+**Thoughts:** It's always so interesting to see someone else's approach to the same problem. I like testing myself against the problem before looking at the solution. I imagine not trying to solve the problem first is why tutorials don't work for a lot of learners. 
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
 
 
