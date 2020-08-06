@@ -1,3 +1,5 @@
+// Currently: Abstracting message into its own function.
+
 // ____________
 // Declarations
 
@@ -5,8 +7,8 @@
 const guessInput = document.getElementById('guess-input');
 // Submit button
 const submitBtn = document.getElementById('guess-btn'); // this doesn't seem semantic to me
-// Win condition span
-const results = document.getElementById('results');
+// Message p **NOTE: this replaces 'results'**
+const message = document.getElementById('message');
 // Retry container
 const retryCont = document.getElementById('retry');
 // Retry button
@@ -41,6 +43,13 @@ function numGen() {
   generatedNumber = Math.ceil((Math.random() * 10));
 }
 
+// Set message
+function setMessage (msg, color){
+  message.textContent = msg;
+  message.style.color = color;
+  guessInput.style.borderColor = color;
+}
+
 // Refresh page button
 function refresh(){
   window.location.reload();
@@ -62,8 +71,7 @@ function submitGuess(e) {
     gameOver();
   // If not a number 1-10, error
   } else if(guess > 10 || guess < 1 || isNaN(guess)){
-    console.log('Number must be 1-10.')
-    results.textContent = 'Number must be 1-10. '+ (guesses) + ' guess(es) remaining.';
+    setMessage(`Number must be 1-10. ${guesses} guess(es) remaining.`, 'red');
   // If all clear, run game function.
   } else {
     game();
@@ -77,16 +85,18 @@ function game(){
   //Incorrect guess
   if (guess !== generatedNumber && guesses > 0) {
     guesses--
-    results.textContent = 'Incorrect. ' + (guesses) + ' guesses remaining.';
+    setMessage(`Incorrect. ${guesses} guess(es) remaining.`, 'red');
   // Win condition
   } else if (guess === generatedNumber) {
-    results.textContent = 'The correct answer was ' + generatedNumber + '. You win!';
+    setMessage(`The correct answer was ${generatedNumber}. You win!`, 'green');
+    guessInput.disabled = true;
     retry();
     guesses = 'gameover'
   }
   // Lose condition
   if (guesses <= 0){
-    results.textContent = 'Sorry, game over! The correct answer was ' + generatedNumber + '.';
+    setMessage(`Sorry, game over! The correct answer was ${generatedNumber}.`, 'red');
+    guessInput.disabled = true;
     retry();
     guesses = 'gameover'
   }
@@ -113,3 +123,4 @@ function gameOver(){
 // - Brad abstracted the results.textContent into its own function setMessage(). That was the point of the blank p.message.
 // - Disable input
 // - Changed input border color with guessInput.style.borderColor. Also changed message colors by adding a second parameter.
+// - Forgot to use template literals
