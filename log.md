@@ -433,5 +433,19 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 57: August 4, 2020
 
+**Today's Progress**: Still following the tutorial. I hadn't thought to abstract my messages into its own function so I pulled that out while I took notes.
+
+**Thoughts:** I'm finally starting to understand parameters and how to use them.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
+
+### Day 58: August 5, 2020
+
+**Today's Progress**: Deleted a bunch of redundant code and functions! Made the min and max number values dynamic.
+
+**Thoughts:** I keep getting ideas on how to make this game truly ridiculous. Hard to know whether it would be better to lean in and have with it or push forward and move on.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
 
