@@ -62,15 +62,10 @@ function retry() {
 
 // Submit guess event handler
 function submitGuess(e) {
-  let guess = parseInt(guessInput.value);
   // parseInt should be sufficient for now because it rounds up, but eventually need to disallow decimals
-  console.log('User input guess:' + guess);
-
-  // Check first for game over condition.
-  if (guesses === 'gameover') {
-    gameOver();
-  // If not a number 1-10, error
-  } else if(guess > 10 || guess < 1 || isNaN(guess)){
+  let guess = parseInt(guessInput.value);
+  // Check input for errors
+  if(guess > 10 || guess < 1 || isNaN(guess)){
     setMessage(`Number must be 1-10. ${guesses} guess(es) remaining.`, 'red');
   // If all clear, run game function.
   } else {
@@ -91,20 +86,13 @@ function game(){
     setMessage(`The correct answer was ${generatedNumber}. You win!`, 'green');
     guessInput.disabled = true;
     retry();
-    guesses = 'gameover'
   }
   // Lose condition
   if (guesses <= 0){
     setMessage(`Sorry, game over! The correct answer was ${generatedNumber}.`, 'red');
     guessInput.disabled = true;
     retry();
-    guesses = 'gameover'
   }
-}
-
-// Game Over function. Does nothing but console log. Might be a better solution for this.
-function gameOver(){
-  console.log('Testing: Game over condition.')
 }
 
 // ________________
