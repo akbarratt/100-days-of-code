@@ -13,6 +13,10 @@ const message = document.getElementById('message');
 const retryCont = document.getElementById('retry');
 // Retry button
 const retryBtn = document.getElementById('retry-btn');
+// Min number
+const minNum = document.querySelector('.min-num');
+// Max number
+const maxNum = document.querySelector('.max-num');
 
 //_______________
 //Getting started (on page load/refresh)
@@ -23,6 +27,11 @@ let generatedNumber;
 let guesses = 3;
 // Run number generation function
 numGen();
+// Set min and max number
+let min = 1;
+let max = 10; 
+minNum.textContent = min;
+maxNum.textContent = max;
 // Testing: Log generatedNubmer
 console.log('Generated number: ' + generatedNumber);
 
@@ -65,8 +74,8 @@ function submitGuess(e) {
   // parseInt should be sufficient for now because it rounds up, but eventually need to disallow decimals
   let guess = parseInt(guessInput.value);
   // Check input for errors
-  if(guess > 10 || guess < 1 || isNaN(guess)){
-    setMessage(`Number must be 1-10. ${guesses} guess(es) remaining.`, 'red');
+  if(guess > max || guess < min || isNaN(guess)){
+    setMessage(`Number must be ${min}-${max}. ${guesses} guess(es) remaining.`, 'red');
   // If all clear, run game function.
   } else {
     game();
@@ -104,6 +113,7 @@ function game(){
 // - NOTE: David thinks the HTML element can handle validation and require input.
 // - FEATURE: Hint when you get to your last guess about whether it's high or lower than your current guess.
 // - NOTE: Most of my problems were solved by counting down the guesses rather than starting from 0 and then counting up.
+// - FEATURE: Could let user input their own min and max values and give them a percentage of success.
 
 //_________
 // TUTORIAL NOTES
