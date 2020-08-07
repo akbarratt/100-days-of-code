@@ -31,9 +31,6 @@ numGen();
 let min = 1;
 let max = 10; 
 minNum.textContent = min;
-maxNum.textContent = max;
-// Testing: Log generatedNubmer
-console.log('Generated number: ' + generatedNumber);
 
 //_________________________
 // Load all event listeners
@@ -126,3 +123,7 @@ function game(){
 // - Forgot to use template literal
 // - -= vs -- ?
 // - Brad did the lose case by nesting it inside of the incorect guess, rather than placing it outside of the conditional.
+// - Brad abstracted the game over condition (SIGH) and used a ternary operator.
+// - Rather than having a new button, can add a new class and event listener to the same button and just change the value.
+// - Append class: +=
+// - Click vs mousedown
