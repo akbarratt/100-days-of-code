@@ -449,3 +449,10 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
 
+### Day 59: August 6, 2020
+
+**Today's Progress**: Finished checking my work against the tutorial.
+
+**Thoughts:** I think some of my math and solutions were actually better than the work shown. So that was exciting.
+
+**Link to work:** https://akbarratt.com/code100/projects/numguess
