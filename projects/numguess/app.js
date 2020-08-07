@@ -75,6 +75,7 @@ function submitGuess(e) {
   let guess = parseInt(guessInput.value);
   // Check input for errors
   if(guess > max || guess < min || isNaN(guess)){
+    guessInput.value = '';
     setMessage(`Number must be ${min}-${max}. ${guesses} guess(es) remaining.`, 'red');
   // If all clear, run game function.
   } else {
@@ -88,7 +89,8 @@ function game(){
   let guess = parseInt(guessInput.value);
   //Incorrect guess
   if (guess !== generatedNumber && guesses > 0) {
-    guesses--
+    guesses--;
+    guessInput.value = '';
     setMessage(`Incorrect. ${guesses} guess(es) remaining.`, 'red');
   // Win condition
   } else if (guess === generatedNumber) {
@@ -121,4 +123,6 @@ function game(){
 // - Brad abstracted the results.textContent into its own function setMessage(). That was the point of the blank p.message.
 // - Disable input
 // - Changed input border color with guessInput.style.borderColor. Also changed message colors by adding a second parameter.
-// - Forgot to use template literals
+// - Forgot to use template literal
+// - -= vs -- ?
+// - Brad did the lose case by nesting it inside of the incorect guess, rather than placing it outside of the conditional.
