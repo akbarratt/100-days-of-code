@@ -456,3 +456,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I think some of my math and solutions were actually better than the work shown. So that was exciting.
 
 **Link to work:** https://akbarratt.com/code100/projects/numguess
+
+### Day 60: August 7, 2020
+
+**Today's Progress**: Learnin' about constructors.
+
+**Thoughts:** I hope my brain can handle all this...
+
+**Link to work:** N/A
