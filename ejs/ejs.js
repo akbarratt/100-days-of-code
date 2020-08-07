@@ -1,44 +1,19 @@
-// Demonstration of var's global scope
-
-let x = 10;
-let y = 10
-var z = 10;
-if (true) {
-  let y = 20;
-  var z = 30;
-  console.log(x + y + z);
-  // → 60
+// Person constructor
+function Person(name, dob) {
+  this.name = name;
+  // this.age = age;
+  this.birthday = new Date(dob);
+  this.calculateAge = function(){
+    const diff = Date.now() - this.birthday.getTime();
+    const ageDate = new Date(diff);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
 }
-// y is not visible here
-console.log(x + y + z);
-// → 40
 
-// Demonstration of scope
-const halve = function(n) {
-  return n / 2;
-};
+// const brad = new Person('Brad', 36);
+// const john = new Person('John', 30);
 
-let n = 10;
-console.log(halve(100));
-// → 50
-console.log(n);
-// → 10
+// console.log(john);
 
-// Nested scope example
-const hummus = function(factor) {
-  const ingredient = function(amount, unit, name) {
-    let ingredientAmount = amount * factor;
-    if (ingredientAmount > 1) {
-      unit += "s";
-    }
-    console.log(`${ingredientAmount} ${unit} ${name}`);
-   };
-   ingredient(1, "can", "chickpeas");
-   ingredient(0.25, "cup", "tahini");
-   ingredient(0.25, "cup", "lemon juice");
-   ingredient(1, "clove", "garlic");
-   ingredient(2, "tablespoon", "olive oil");
-   ingredient(0.5, "teaspoon", "cumin");
-};
-
-console.log(hummus);
+const brad = new Person('Brad', '9-10-1981');
+console.log(brad.calculateAge());
