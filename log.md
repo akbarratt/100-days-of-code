@@ -464,3 +464,35 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I hope my brain can handle all this...
 
 **Link to work:** N/A
+
+### Day 61: August 8, 2020
+
+**Today's Progress**: Continuing instruction on constructors.
+
+**Thoughts:** Not a lot of time today.
+
+**Link to work:** N/A
+
+### Day 62: August 9, 2020
+
+**Today's Progress**: Catching up on some reading today.
+
+**Thoughts:** Been sick all week! Sucks. Slow goingg.
+
+**Link to work:** N/A
+
+### Day 63: August 10, 2020
+
+**Today's Progress**: Moving on to ES6 updates to constructors and prototypes.
+
+**Thoughts:** It already makes a lot more sense over ES5.
+
+**Link to work:** N/A
+
+### Day 64: August 11, 2020
+
+**Today's Progress**: Finished the unit I was working on.
+
+**Thoughts:** Moving on to a practical project tomorrow.
+
+**Link to work:** N/A
