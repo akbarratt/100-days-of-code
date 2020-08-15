@@ -496,3 +496,28 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Moving on to a practical project tomorrow.
 
 **Link to work:** N/A
+
+### Day 65: August 12, 2020
+
+**Today's Progress**: Started my next tutorial. Working on the UI.
+
+**Thoughts:** Using a framework again. Focusing on constructors so I'll give it a pass.
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
+
+### Day 66: August 13, 2020
+
+**Today's Progress**: UI done for now. Moving on to constructors and prototypes!
+
+**Thoughts:** Still kind of struggling to grasp the syntax, hopefully that becomes easier with use.
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
+
+
+### Day 67: August 14, 2020
+
+**Today's Progress**: Basic functionality is done, need to add some form validation next.
+
+**Thoughts:** We're doing the ES5 way first so I'm interested to see how much ES6 simplifies the process.
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
