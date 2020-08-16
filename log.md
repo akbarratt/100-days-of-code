@@ -521,3 +521,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** We're doing the ES5 way first so I'm interested to see how much ES6 simplifies the process.
 
 **Link to work:** https://akbarratt.com/code100/projects/booklist
+
+### Day 68: August 15, 2020
+
+**Today's Progress**: Stopped to work on my flash card backlog. Spent about an hour inputting fundamental concepts and creating new card types.
+
+**Thoughts:** I don't enjoy this process because it's not immediately rewarding and in the short term seems to slow progress, but the boost to retention is worth it in the long run.
+
+**Link to work:** N/A
