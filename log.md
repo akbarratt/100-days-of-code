@@ -529,3 +529,19 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I don't enjoy this process because it's not immediately rewarding and in the short term seems to slow progress, but the boost to retention is worth it in the long run.
 
 **Link to work:** N/A
+
+### Day 69: August 16, 2020
+
+**Today's Progress**: Spent some more time on flashcard concepts today, my backlog was huge. All caught up now.
+
+**Thoughts:** I've noticed I have a tendency to catch up on the weekends and save the actual coding to weekdays. Unintentional.
+
+**Link to work:** N/A
+
+### Day 70: August 17, 2020
+
+**Today's Progress**: Finished building the app in ES5. Tomorrow will convert to ES6 using classes.
+
+**Thoughts:** I'm very confused.
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
