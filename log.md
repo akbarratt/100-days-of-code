@@ -545,3 +545,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I'm very confused.
 
 **Link to work:** https://akbarratt.com/code100/projects/booklist
+
+### Day 71: August 20, 2020
+
+**Today's Progress**: Converted the app to ES6. 
+
+**Thoughts:** JS classes are much easier to understand than using prototypes. 
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
