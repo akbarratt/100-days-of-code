@@ -553,3 +553,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** JS classes are much easier to understand than using prototypes. 
 
 **Link to work:** https://akbarratt.com/code100/projects/booklist
+
+### Day 72: August 24, 2020
+
+**Today's Progress**: Added the ability to persist to local storage. 
+
+**Thoughts:** I have no idea what I just did or how it works, or why.
+
+**Link to work:** https://akbarratt.com/code100/projects/booklist
