@@ -561,3 +561,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** I have no idea what I just did or how it works, or why.
 
 **Link to work:** https://akbarratt.com/code100/projects/booklist
+
+### Day 73: August 25, 2020
+
+**Today's Progress**: Started looking at asynchronous programming.
+
+**Thoughts:** Oh boy!
+
+**Link to work:** N/A
