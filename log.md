@@ -569,3 +569,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Oh boy!
 
 **Link to work:** N/A
+
+### Day 74: August 26, 2020
+
+**Today's Progress**: Started looking at asynchronous programming.
+
+**Thoughts:** Oh boy!
+
+**Link to work:** N/A
