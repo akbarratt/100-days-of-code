@@ -577,3 +577,11 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** Oh boy!
 
 **Link to work:** N/A
+
+### Day 75: August 27, 2020
+
+**Today's Progress**: Started looking at JSON.
+
+**Thoughts:** The syntax is a little difficult to grasp.
+
+**Link to work:** N/A
