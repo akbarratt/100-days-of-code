@@ -585,3 +585,43 @@ I'm also realizing I really need to resume my habit of creating flash cards in [
 **Thoughts:** The syntax is a little difficult to grasp.
 
 **Link to work:** N/A
+
+### Day 76: August 28, 2020
+
+**Today's Progress**: Started looking at JSON.
+
+**Thoughts:** The syntax is a little difficult to grasp.
+
+**Link to work:** N/A
+
+### Day 77: August 29, 2020
+
+**Today's Progress**: Started looking at JSON.
+
+**Thoughts:** The syntax is a little difficult to grasp.
+
+**Link to work:** N/A
+
+### Day 78-80: August 30-September 1, 2020
+
+**Today's Progress**: Pulled back to do other coursework, working on a video series currently.
+
+**Thoughts:** This doesn't feel like "real work" but I kept getting stuck with APIs.
+
+**Link to work:** N/A
+
+### Day 81-85: September 2-September 8, 2020
+
+**Today's Progress**: Committed to Launch School curriculum and working my way through their orientation.
+
+**Thoughts:** This still doesn't feel like "coding" because it's mostly not, but thing is... I'm trying to stay motivated to continue however possible and IMO any forward momentum counts.
+
+**Link to work:** N/A
+
+### Day 86: September 9, 2020
+
+**Today's Progress**: Working on Crash Course's computer science video series.
+
+**Thoughts:** I've learned a ton about hardware and I'm making a lot of unexpected connections to software and programming.
+
+**Link to work:** N/A
